@@ -57,9 +57,11 @@ var number_two = 371;
 var randomNum = 0;
 var sum = 0;
 var counter = 0;
-do {
-  var user_number = parseInt(prompt("შეიყვანეთ რიცხვი 135 დან 371 მდე"));
-} while (user_number <= 135 || user_number >= 371);
+// do {
+//   var user_number = parseInt(prompt("შეიყვანეთ რიცხვი 135 დან 371 მდე"));
+// } while (user_number <= 135 || user_number >= 371);
+
+var user_number = parseInt(prompt("შეიყვანეთ რიცხვი "));
 
 for (var i = 0; i < user_number; i++) {
   randomNum = Math.round(
